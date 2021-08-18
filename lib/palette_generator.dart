@@ -45,9 +45,7 @@ The framework will call this method exactly once for each State object it create
             width: double.infinity,
             height: 200,
             color: extractColors.isEmpty ? Colors.white : extractColors[_index].color,
-            /** PageView => Creates a scrollable list that works page by page from an explicit List of widgets.
-                  This constructor is appropriate for page views with a small number of children because constructing the List requires doing work for every child that could possibly be displayed in the page view, instead of just those children that are actually visible.*/
-            child: PageView(
+             child: PageView(
               onPageChanged: (int index) {
                 setState(() {
                   _index = index;
@@ -120,3 +118,9 @@ The framework will call this method exactly once for each State object it create
     }
   }
 }
+/** PageView => Creates a scrollable list that works page by page from an
+ * explicit List of widgets.
+ * This constructor is appropriate for page views with a small number of
+ * children because constructing the List requires doing work for every child
+ * that could possibly be displayed in the page view, instead of just those
+ * children that are actually visible.*/
