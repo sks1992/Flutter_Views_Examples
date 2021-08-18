@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:palette_generator/palette_generator.dart';
 
-class HomePage extends StatefulWidget {
+class PaletteGeneratorPage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _PaletteGeneratorPageState createState() => _PaletteGeneratorPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _PaletteGeneratorPageState extends State<PaletteGeneratorPage> {
   //create a list of images
   final List<String> images = [
     'assets/sk1.jpg',

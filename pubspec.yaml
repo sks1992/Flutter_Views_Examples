@@ -29,6 +29,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   palette_generator: ^0.3.0
+  syncfusion_flutter_signaturepad: ^19.2.56
+  permission_handler: ^8.1.4+2
+  image_gallery_saver: ^1.6.9
 
 dev_dependencies:
   flutter_test:
