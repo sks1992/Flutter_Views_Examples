@@ -32,6 +32,7 @@ dependencies:
   syncfusion_flutter_signaturepad: ^19.2.56
   permission_handler: ^8.1.4+2
   image_gallery_saver: ^1.6.9
+  circular_bottom_navigation: ^1.0.1
 
 dev_dependencies:
   flutter_test:

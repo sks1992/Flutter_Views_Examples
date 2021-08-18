@@ -54,7 +54,7 @@ class _SignatureToImageState extends State<SignatureToImage> {
         await (image.toByteData(format: ui.ImageByteFormat.png));
     if (byteData != null) {
       final time = DateTime.now().millisecond;
-      final name = "signature_$time.png";
+      final name = "signature_$time";
       final result = await ImageGallerySaver.saveImage(
           byteData.buffer.asUint8List(),
           quality: 100,
